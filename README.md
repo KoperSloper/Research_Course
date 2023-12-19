@@ -15,11 +15,21 @@ The following Python libraries are used:
 ## Installation
 To run the scripts, you need to have Python installed on your system.
 
-Once Python is installed, you can install the necessary libraries using pip, which is a package manager for Python. Open a terminal and type the following command:
+Once Python is installed, you can create a new Python environment and install the necessary libraries. Here's how you can do it using the command prompt:
 
-```bash
-pip install pandas numpy matplotlib seaborn linearmodels
-```
+1. Open the command prompt.
+2. Navigate to the directory where you want to create the new environment.
+3. Run the following command to create a new environment named 'env':
+    ```bash
+    python -m venv env
+    ```
+4. Activate the environment:
+    - On Windows, run: `env\Scripts\activate`
+    - On macOS and Linux, run: `source env/bin/activate`
+5. Once the environment is activated, you can install the necessary libraries using pip:
+    ```bash
+    pip install pandas numpy matplotlib seaborn statsmodels linearmodels
+    ```
 
 ## Usage
 After installing the necessary libraries, you can run the Python scripts in this repository.
