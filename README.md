@@ -11,6 +11,8 @@ The following Python libraries are used:
 - matplotlib
 - seaborn
 - linearmodels
+- Statsmodels
+- Scipy
 
 ## Installation
 To run the scripts, you need to have Python installed on your system.
@@ -28,7 +30,7 @@ Once Python is installed, you can create a new Python environment and install th
     - On macOS and Linux, run: `source env/bin/activate`
 5. Once the environment is activated, you can install the necessary libraries using pip:
     ```bash
-    pip install pandas numpy matplotlib seaborn statsmodels linearmodels
+    pip install pandas numpy matplotlib seaborn statsmodels linearmodels scipy
     ```
 
 ## Usage
